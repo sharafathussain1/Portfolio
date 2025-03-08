@@ -31,7 +31,7 @@ transition={{
     >
    
    <Image
-      src="/3.png"
+      src="/sh.png"
       width={70}
       height={20}
       alt="Picture of the author"
