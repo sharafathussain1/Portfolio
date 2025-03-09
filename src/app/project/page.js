@@ -64,7 +64,7 @@ const projects =[
       {
         projects.map(({image , subtitle , discription ,link ,name })=>(
 <div key={name} className="xl:w-1/4 md:w-1/2 p-4 ">
-        <div className="bg-gray-100 p-6 rounded-lg h-[500px] border-2">
+        <div className="bg-gray-100 p-6 rounded-lg h-[520px] border-2">
           <Image
             className=" rounded w-full object-cover object-center mb-6"
             src={image}
@@ -81,7 +81,7 @@ const projects =[
           <p className="leading-relaxed text-base  h-[140px]">
           {discription}
           </p>
-          <div className="w-full flex items-center justify-center  ">
+          <div className="w-full flex items-center justify-center   mt-11">
             <Link href={link} target="_blank">
           <Button >Live Link</Button>
           </Link>

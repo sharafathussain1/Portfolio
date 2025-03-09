@@ -25,8 +25,7 @@ transition={{
   duration:2
 }}>
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a
-      href="https://flowbite.com/"
+    <div
       className="flex items-center space-x-3 rtl:space-x-reverse"
     >
    
@@ -36,15 +35,11 @@ transition={{
       height={20}
       alt="Picture of the author"
     />     
-      {/* <img
-        src="https://flowbite.com/docs/images/logo.svg"
-        className="h-8"
-        alt="Flowbite Logo"
-      /> */}
+      
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
         <Image src="/sharafat.png" alt="image not found" height={100} width={80}/>
       </span>
-    </a>
+    </div>
     <button
      onClick={toggleHandleFunction}
       data-collapse-toggle="navbar-default"
